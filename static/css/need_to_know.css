@@ -1,0 +1,56 @@
+/* Needs to know pages styles */
+
+/* content styles */
+.articles {
+	float:left;
+	width:781px;
+	}
+.article {
+	width:781px;
+	}
+.article .thumb {
+	display:block;
+	float:left;
+	width:168px;
+	height:168px;
+	margin-right:25px;
+	}
+.article .info {
+	float:left;
+	width:574px;
+	padding-right:11px;
+	font-size:1.5em;
+	line-height:1.2em;
+	}
+.article .title {
+	display:block;
+	margin-top:-3px;
+	padding-bottom:11px;
+	font-size:1.2em;
+    color: #024793;
+	}
+.article .title:hover {
+	color:#000000;
+	}
+.article .body a:hover {
+	text-decoration:underline;
+	}
+.articles .separate {
+	width:809px;
+	height:3px;
+	margin:0px 0px 0px -28px;
+	padding:20px 0px;
+	}
+.articles .page_navigation {
+	padding:25px 0px 0px 0px;
+	font-size:1.8em;
+	line-height:1.2em;
+	color:#0085B8;
+	text-align:center;
+	}
+.articles .page_navigation a:hover {
+	text-decoration:underline;
+	}
+.categories_block .title {
+	background-image:url(../images/years_bg_current.png);
+	}

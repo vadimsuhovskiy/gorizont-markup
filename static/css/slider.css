@@ -1,0 +1,103 @@
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slideshow {
+    width:1122px;
+    height:329px;
+    margin:0px auto 0px auto;
+	padding:0px 0px 0px 0px;
+	background:none;
+}
+
+#slider {
+	position:relative;
+    width:1030px;
+    height:329px;
+	margin:0px 46px;
+	background-position:100% 0px !important;
+}
+#slider img {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#slider a {
+	display:block;
+	border:0;
+}
+.nivo-controlNav {
+	display:none;
+	width:0px;
+	height:0px;
+}
+.nivo-controlNav a {
+	display:none;
+	width:0px;
+	height:0px;
+}
+.nivo-directionNav a {
+	display:block;
+	width:34px;
+	height:79px;
+	margin-top:25px;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	right:-46px;
+	background:url(../images/arrow_right.png) no-repeat;
+}
+a.nivo-prevNav {
+	left:-46px;
+	background:url(../images/arrow_left.png) no-repeat;
+}
+.nivo-caption {
+	position:absolute;
+	z-index:10;
+	opacity:1 !important;
+	top:164px;
+    width:580px;
+	height:77px;
+	margin-left:0px;
+	padding:0px 0px 0px 12px;
+	font-size:1.9em;
+	font-family: Tahoma, Geneva, Arial, sans-serif;
+	line-height:1.5em;
+    text-shadow:none;
+	background:none;
+}
+.nivo-caption a {
+	font-size:1.1em;
+    text-decoration:none;
+	color:#efe9d1;
+}
+.nivo-caption a:hover { 
+    text-decoration:underline;
+	color:#efe9d1;
+}
+.caption_align {
+	display:table-cell;
+    width:580px;
+	height:77px;
+	text-align:left;
+	vertical-align:top;
+}
+.caption_align a.detail {
+    color:#efe9d1;
+    font-size:1.0em;
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+}
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

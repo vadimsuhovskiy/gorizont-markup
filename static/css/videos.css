@@ -1,0 +1,58 @@
+/* Videos pages styles */
+
+/* content styles */
+.videos {
+	width:1047px;
+	margin:50px -15px 15px 0px;
+	}
+.videos .video {
+	float:left;
+	width:250px;
+	margin-right:11px;
+	margin-bottom:17px;
+	}
+.videos .video .thumb {
+	display:block;
+	width:248px;
+	height:186px;
+	border:1px solid #0085BA;
+	}
+.videos .video .info {
+	padding-top:7px;
+	font-size:1.6em;
+	line-height:1.2em;
+	color:#666666;
+	}
+.videos .video .info a{
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    color: #024793;
+}
+.videos .video .info a {
+	display:block;
+	}
+.videos .video .info a:hover {
+	text-decoration:underline;
+	}
+.description {
+    color: #666666;
+    min-height: 1px;
+    max-height: 80px;
+    text-align: left;
+    line-height: 1.2em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size:1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description .video_title {
+    text-align:left;
+    font-size:1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#024793;
+}
+.description strong {
+    font-size:1.0em;
+    color:#000000;
+}

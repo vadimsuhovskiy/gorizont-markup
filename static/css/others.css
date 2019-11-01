@@ -1,0 +1,8 @@
+.wide_column .default_page_block {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.wide_column .default_page_block h2 {
+    color: navy;
+}

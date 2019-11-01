@@ -1,0 +1,42 @@
+/* Contacts page styles */
+
+/* content styles */
+.page_title.contacts_title {
+	padding-left:28px;
+	}
+.contacts .contact_title {
+	padding-bottom:15px;
+	font-size:1em;
+	line-height:1.2em;
+	font-weight:normal;
+	color:#0085B8;
+	}
+.contacts {
+	font-size:1.8em;
+	line-height:1.2em;
+	}
+.contacts span {
+	display:block;
+	margin-bottom:10px;
+	}
+.contacts img {
+	margin-bottom:-10px;
+	margin-right:12px;
+	}
+.contacts a {
+	color:#333333;
+	}
+.contacts a:hover {
+	text-decoration:underline;
+	}
+.to_all_dealers {
+	padding-top:35px;
+	font-size:1.8em;
+	line-height:1.2em;
+	}
+.to_all_dealers a {
+	text-decoration:underline;
+	}
+.to_all_dealers a:hover {
+	text-decoration:none;
+	}

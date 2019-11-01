@@ -1,0 +1,18 @@
+#slides {
+	position:relative;
+	max-width:1680px;
+	margin:0px auto;
+	}
+.slides_container {
+	display:none;
+	max-width:1680px;
+	}
+.slides_container div.slide {
+	display:block;
+	width:100%;
+	margin:0px auto;
+	height:367px;
+	}
+.slides_control {
+	width:100% !important;
+	}

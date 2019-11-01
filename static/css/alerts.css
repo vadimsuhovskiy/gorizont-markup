@@ -1,0 +1,19 @@
+.alert_class {
+    min-width: 360px;
+    height: 80px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background:url(../images/transparent.png) top left repeat;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    behavior:url(../css/pie.htc);
+}
+.alert_class #popup_message {
+    margin-top: 35px;
+    padding: 0 20px 0 20px;
+}
+.alert_class #popup_ok {
+    display: none;
+}

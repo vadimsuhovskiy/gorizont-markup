@@ -1,0 +1,11 @@
+.product_photos {
+    margin:0px 4px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    background:url(../images/dotted_line.png) top left repeat-x;
+}
+.product_photos .thumbnail {
+    margin-left: 20px;
+    margin-bottom: 6px;
+}

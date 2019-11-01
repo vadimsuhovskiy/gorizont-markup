@@ -1,0 +1,37 @@
+/* Certificates page styles */
+
+/* content styles */
+.certificates {
+	width:986px;
+	margin-right:-10px;
+	}
+.certificate {
+	float:left;
+	width:183px;
+	min-height:264px;
+	margin:0px 14px 0px 0px;
+	font-size:1.6em;
+	line-height:1.2em;
+    color: #024793;
+	}
+.certificate .info {
+	padding-top:3px;
+	}
+.certificate .info a {
+	display:block;
+	}
+.certificate .info a:hover {
+	text-decoration:underline;
+	}
+.certificates .separate, 
+.articles .separate {
+	width:1032px;
+	height:3px;
+	margin:0px -28px;
+	padding:25px 0px;
+	}
+.certificates_description {
+    font-size:1.6em;
+    line-height:1.2em;
+    padding-bottom: 20px;
+}
