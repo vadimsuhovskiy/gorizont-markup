@@ -52,7 +52,10 @@
             //Resize the slider
             if(childWidth > slider.width()){
                 slider.width(childWidth);
-            }
+			}
+			if (slider.width() > document.body.clientWidth) {
+				slider.width(document.body.clientWidth - 46 * 2)
+			}
             if(childHeight > slider.height()){
                 slider.height(childHeight);
             }
