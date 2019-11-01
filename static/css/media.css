@@ -2,17 +2,86 @@
     html,body {
         min-width: auto;
     }
-    #slider,#slideshow,.top_block,#header .navigation,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block {
+    #slider,#slideshow,.top_block,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block {
         width: auto;
         
     }
+    .navigation__toggle_mobile  {
+        width: 25px;
+        height: 25px;
+        position: fixed;
+        right: 40px;
+        top: 40px;
+        background: transparent url(../images/line-menu.svg) center no-repeat;
+        z-index: 98;
+        border: none;
+    }
+    .navigation__hide_mobile  {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 12px;
+        top: 10px;
+        background: transparent;
+        border: none;
+        z-index: 98;
+    }
+    .navigation__hide_mobile:before,
+    .navigation__hide_mobile:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 50%;
+        width: 3px;
+        border-radius: 3px;
+        height: 100%;
+        background: #FFF;
+    }
+    .navigation__hide_mobile:before {
+        transform: rotate(45deg)
+    }
+    .navigation__hide_mobile:after {
+        transform: rotate(-45deg)
+    }
     #header .navigation {
-        display: none;
+        width: 320px;
+        height: auto;
+        margin: 0;
+        z-index: 99;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        overflow: auto;
+        background: #0177B6;
+        transition: 0.3s;
+    }
+    #header .navigation.active {
+        right: 0;
+    }
+    #header .navigation ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background: none;
+        border: none;
+        border-radius: none;
+    }
+    #header .navigation ul li{
+        background: none;
+    }
+    #header .navigation li a {
+        border-bottom: 1px solid #FFF;
+        margin-left: 0;
+    }
+    #header .navigation ul li.current{
+        background: none;
     }
     #header .lang_block {
         margin: 0;
         right: 50px;
-    }
+    }    
     .nivo-caption {
         height: auto;
     }
