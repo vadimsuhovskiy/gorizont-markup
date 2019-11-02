@@ -210,14 +210,10 @@
 
 /* new styles */
 .adv_block {
-    float:right;
     position:relative;
     z-index:0;
-    width:360px;
     margin-bottom:15px;
-    padding: 4px 0px 0px 4px;
     border:none;
-    background:#494646 none;
     /*-webkit-border-radius:8px;*/
     /*-moz-border-radius:8px;*/
     /*border-radius:8px;*/
@@ -227,7 +223,11 @@
     behavior:url(../css/pie.htc);
     /*height:260px;*/
     }
-
+.last_news .player_block {
+	height: auto;
+	margin: 0 auto;
+	margin-top: 7px;
+}
 #adv_slider div.nivo-slice {
     margin: 0 5px 0 5px;
 }

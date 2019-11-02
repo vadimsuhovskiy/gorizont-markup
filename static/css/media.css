@@ -8,6 +8,7 @@
     }
     .navigation__toggle_mobile  {
         width: 25px;
+        display: block;
         height: 25px;
         position: fixed;
         right: 40px;
@@ -17,6 +18,7 @@
         border: none;
     }
     .navigation__hide_mobile  {
+        display: block;
         width: 25px;
         height: 25px;
         position: absolute;
@@ -138,4 +140,63 @@
         box-sizing: border-box;
     }
     
+}
+@media screen and (max-width: 990px) {
+    .video_list .video {
+        flex: 0 0 50%;
+    }
+    .last_news {
+        flex: 0 0 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    .video_list .video {
+        flex: 0 0 100%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .nivo-caption p {
+        font-size: 16px;
+        line-height: 18px;
+        text-shadow: 1px 1px 2px black;
+    }
+    .home_text .buttons {        
+        padding: 8px 5px;
+        height: auto;
+    }
+    .home_text .buttons-holder a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .vjs_video_3-dimensions {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 479px) {
+    #content {
+        max-width: 310px;
+    }
+    .last_news {
+        width: auto;
+        padding-bottom: 15px;
+    }
+    .last_news .player_block {
+        width: auto;
+    }
+    .last_news .news {
+        width: auto;
+    }
+    .last_news .separate {
+        width: 100%;
+    }
+    .last_news .thumb {
+        height: auto;
+    }
+    .last_news .news_info {
+        margin-top: 10px;
+    }
 }
