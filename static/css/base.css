@@ -130,6 +130,9 @@ html, body {
 	height:352px;
 	background:url(../images/header_bg.png) top left repeat-x;
 	}
+.header__title_mobile {
+	display: none;
+}
 .top_block {
 	position:relative;
 	width:1032px;

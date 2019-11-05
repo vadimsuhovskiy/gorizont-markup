@@ -12,7 +12,7 @@
         height: 25px;
         position: fixed;
         right: 40px;
-        top: 40px;
+        top: 20px;
         background: transparent url(../images/line-menu.svg) center no-repeat;
         z-index: 98;
         border: none;
@@ -44,6 +44,9 @@
     }
     .navigation__hide_mobile:after {
         transform: rotate(-45deg)
+    }
+    #header {
+        height: auto;
     }
     #header .navigation {
         width: 320px;
@@ -96,7 +99,7 @@
     }
     .home_text {
      margin-bottom: 20px;   
-    }
+    }    
     .last_news {
         float: none;
     }
@@ -145,6 +148,9 @@
     .video_list .video {
         flex: 0 0 50%;
     }
+    .last_news.first-new {
+        order: -1;   
+    }
     .last_news {
         flex: 0 0 100%;
         display: flex;
@@ -156,9 +162,35 @@
 @media screen and (max-width: 767px) {
     .video_list .video {
         flex: 0 0 100%;
-    }
+    }    
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
+    #content {
+        max-width: 100%;
+    }
+    .header__title_mobile {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+        color: #EBC54C
+    }
+    .adv_block {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .last_news .player_block {
+        width: 100%;
+    }
+    .vjs_video_3-dimensions {
+        width: 100%;
+    }
+    .home_text {
+        border-radius: 0;
+    }
+    .last_news {
+        border-radius: 0;
+    }
     .nivo-caption p {
         font-size: 16px;
         line-height: 18px;
@@ -171,14 +203,18 @@
     .home_text .buttons-holder a {
         font-size: 14px;
         margin-left: 0;
+    }    
+    .last_news.first-new .news {
+        display: none;
     }
-    .vjs_video_3-dimensions {
-        width: 300px;
+    #slideshow, .top_block {
+        display: none;
     }
 }
 @media screen and (max-width: 479px) {
-    #content {
-        max-width: 310px;
+    .vjs_video_3-dimensions {
+        width: 310px;
+        margin: 0 auto;
     }
     .last_news {
         width: auto;
