@@ -11,8 +11,8 @@
         display: block;
         height: 25px;
         position: fixed;
-        right: 40px;
-        top: 20px;
+        right: 20px;
+        top: 12px;
         background: transparent url(../images/line-menu.svg) center no-repeat;
         z-index: 98;
         border: none;
@@ -168,10 +168,16 @@
     #content {
         max-width: 100%;
     }
+    #header {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+    }
     .header__title_mobile {
         display: block;
-        padding: 20px 0;
-        text-align: center;
+        padding: 10px 0;
+        padding-left: 60px;
+        text-align: left;
         color: #EBC54C
     }
     .adv_block {
@@ -187,6 +193,7 @@
     }
     .home_text {
         border-radius: 0;
+        margin-top: 270px;
     }
     .last_news {
         border-radius: 0;
@@ -203,17 +210,38 @@
     .home_text .buttons-holder a {
         font-size: 14px;
         margin-left: 0;
-    }    
+    }  
+    .last_news.first-new {
+        position: fixed;
+        top: 50px;
+        width: 100%;
+    }  
+    .last_news.first-new .player_header {
+        display: none;
+    }
     .last_news.first-new .news {
         display: none;
     }
     #slideshow, .top_block {
         display: none;
     }
+    .video_list {
+        background: #DBECF3 none;
+        padding: 10px 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .video_list .video {
+        padding: 0px 15px;
+        box-sizing: border-box;
+    }
+    .video_list .video img {
+        width: 100%;
+        height: auto;
+    }
 }
 @media screen and (max-width: 479px) {
     .vjs_video_3-dimensions {
-        width: 310px;
         margin: 0 auto;
     }
     .last_news {
