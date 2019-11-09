@@ -153,6 +153,16 @@
     }
 
     /* documents page styles end */
+
+     /* technology page styles start */
+
+     .default_page_block > img {
+         width: auto;
+         height: auto;
+         max-width: 100%;
+     }
+
+      /* technology page styles end */
     
 }
 @media screen and (max-width: 990px) {
