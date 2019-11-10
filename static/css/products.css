@@ -128,6 +128,7 @@
 .products {
 	width:972px;
 	margin:0px 32px;
+	font-size: 10px;
 	}
 .products tr {
 	background:url(../images/dotted_line.png) bottom left repeat-x;
@@ -138,7 +139,7 @@
 	}
 .products td.product.last, 
 .products tr.last {
-	background:none !important;
+	background: none;
 	}
 .products .thumb {
 	float:left;
