@@ -366,6 +366,22 @@
     .documents_list .title {
         font-size: 1em;
     }
+    /* research page styles start */
+
+    .documents_list .documents {
+        flex-direction: column;
+    }
+    .documents_list .thumb {
+        width: 100%;
+        margin: 15px 0;
+        height: 130px;
+    }
+    .documents_list .thumb img {
+        object-fit: cover;
+        object-position: top;
+    }
+
+    /* research page styles end */
 
     /* documents page styles end */
 
@@ -377,8 +393,52 @@
     .products {
         font-size: 8px;
     }
+    .products_tabs {
+        height: auto;
+    }
     .products_tabs.household_filters {
         font-size: 14px;
+        flex-direction: column;
+    }
+    .products_tabs.household_filters a {
+        display: none;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .products_tabs.household_filters h1 {
+        padding: 15px 0;
+        width: 100%;
+        position: relative;
+    }
+    .products_tabs.household_filters h1:before,
+    .products_tabs.household_filters h1:after {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 20px;
+        background: #000;
+        top: 50%;
+        transition: 0.3s;
+    }
+    .products_tabs.household_filters h1:before{
+        transform: translateY(-50%) rotate(45deg);
+        right: 21px;
+    }
+    .products_tabs.household_filters h1:after{
+        transform: translateY(-50%) rotate(-45deg);
+        right: 35px;
+    }
+    .products_tabs.household_filters.toggled h1:before{
+        transform: translateY(-50%) rotate(135deg);
+    }
+    .products_tabs.household_filters.toggled h1:after{
+        transform: translateY(-50%) rotate(-135deg);
+    }
+    .products_tabs.household_filters.toggled a {
+        display: flex;
+    }
+    .products_tabs.household_filters :last-child {
+        border-right: none;
     }
     .product .order_button {
         height: auto;
@@ -431,9 +491,6 @@
 
     .products {
         font-size: 6px;
-    }
-    .products_tabs.household_filters {
-        font-size: 11px;
     }
 
     /* products page styles end */

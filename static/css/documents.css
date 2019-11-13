@@ -5,9 +5,15 @@
 .documents_list .thumb {
     display:block;
     float:left;
-    width:91px;
-    height:91px;
+    min-width: 91px;
+    width: 91px;
+    height: 91px;
     margin:0 11px 0 11px;
+}
+.documents_list .thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
 }
 .documents_list .info {
     float:left;
