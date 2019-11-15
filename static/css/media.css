@@ -244,6 +244,21 @@
     }
 
      /* products page styles end */
+
+     /* need-to-know page styles start */
+
+     .articles,
+     .article,
+     .articles .separate,
+     .article .info
+      {
+         width: auto;
+     }
+     .article .info {
+         float: none;
+     }
+
+     /* need-to-know page styles end */
     
 }
 @media screen and (max-width: 990px) {
@@ -494,4 +509,14 @@
     }
 
     /* products page styles end */
+
+    /* need-to-know page styles start */
+
+    .article .thumb {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    /* need-to-know page styles end */
 }
