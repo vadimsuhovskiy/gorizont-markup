@@ -166,22 +166,22 @@
 
     /* products page styles start */
 
-    .products_tabs.household_filters {
+    .products_tabs {
         font-size: 17px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
         padding: 0;
-        background: #FFF;
+        background: #FFF !important;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         margin: 0;
         overflow: hidden;
         box-shadow: 0px 1px 4px black;
     }
-    .products_tabs.household_filters h1,
-    .products_tabs.household_filters a {
+    .products_tabs h1,
+    .products_tabs a {
         border-left: 1px solid grey;
         border-top: 0;
         flex-grow: 1;
@@ -192,14 +192,14 @@
         align-items: center;
         padding: 0 5px;
     }
-    .products_tabs.household_filters h1 {
+    .products_tabs h1 {
         font-weight: bold;
         line-height: 1em;
     }
-    .products_tabs.household_filters a {
+    .products_tabs a {
         background: transparent;
     }
-    .products_tabs.household_filters :last-child {
+    .products_tabs :last-child {
         border-right: 1px solid grey;
     }
     .products_tabs .first,
@@ -256,6 +256,24 @@
      }
      .article .info {
          float: none;
+     }
+     .categories_block {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4vh;
+        float: none;
+        width: auto;
+     }
+     .categories_block .title {
+        padding: 10px 40px;
+        background: #2080B1;
+        border-radius: 16px;
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin: 0 auto;
      }
 
      /* need-to-know page styles end */
@@ -400,6 +418,7 @@
     .documents_list .title {
         font-size: 1em;
     }
+    /* documents page styles end */
     /* research page styles start */
 
     .documents_list .documents {
@@ -417,35 +436,31 @@
 
     /* research page styles end */
 
-    /* documents page styles end */
+    
 
     /* products page styles start */
 
-    .products_tabs.household_filters {
+    .products_tabs {
         margin-top: 40px;
+        font-size: 14px;
+        flex-direction: column;
+        height: auto;
     }
     .products {
         font-size: 8px;
     }
-    .products_tabs {
-        height: auto;
-    }
-    .products_tabs.household_filters {
-        font-size: 14px;
-        flex-direction: column;
-    }
-    .products_tabs.household_filters a {
+    .products_tabs a {
         display: none;
         padding: 10px 0;
         width: 100%;
     }
-    .products_tabs.household_filters h1 {
+    .products_tabs h1 {
         padding: 15px 0;
         width: 100%;
         position: relative;
     }
-    .products_tabs.household_filters h1:before,
-    .products_tabs.household_filters h1:after {
+    .products_tabs h1:before,
+    .products_tabs h1:after {
         position: absolute;
         content: '';
         width: 2px;
@@ -454,24 +469,24 @@
         top: 50%;
         transition: 0.3s;
     }
-    .products_tabs.household_filters h1:before{
+    .products_tabs h1:before{
         transform: translateY(-50%) rotate(45deg);
         right: 21px;
     }
-    .products_tabs.household_filters h1:after{
+    .products_tabs h1:after{
         transform: translateY(-50%) rotate(-45deg);
         right: 35px;
     }
-    .products_tabs.household_filters.toggled h1:before{
+    .products_tabs.toggled h1:before{
         transform: translateY(-50%) rotate(135deg);
     }
-    .products_tabs.household_filters.toggled h1:after{
+    .products_tabs.toggled h1:after{
         transform: translateY(-50%) rotate(-135deg);
     }
-    .products_tabs.household_filters.toggled a {
+    .products_tabs.toggled a {
         display: flex;
     }
-    .products_tabs.household_filters :last-child {
+    .products_tabs :last-child {
         border-right: none;
     }
     .product .order_button {
