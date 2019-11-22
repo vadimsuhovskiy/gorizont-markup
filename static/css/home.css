@@ -115,9 +115,13 @@
 	display:block;
 	float:left;
 	width:91px;
-	height:91px;
 	margin-right:10px;
 	}
+.last_news .thumb img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
 .last_news .news_info {
 	float:left;
 	width:229px;
