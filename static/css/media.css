@@ -2,9 +2,20 @@
     html,body {
         min-width: auto;
     }
-    #slider,#slideshow,.top_block,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block {
+    #slider,#slideshow,.top_block,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block,.product_block,.product_block .info_block, .related_cartridges .products .info,.show_news {
         width: auto;
         
+    }
+    .alert_class {
+        min-width: unset;
+        margin-top: 30px;
+    }
+    #popup_content {
+        line-height: 1.1em;
+    }
+    .alert_class #popup_message {
+        margin: 0;
+        padding: 20px;
     }
     .navigation__toggle_mobile  {
         width: 25px;
@@ -151,7 +162,17 @@
     .documents_list .documents {
         display: flex;
     }
-
+    .product_block .image_block {
+        float: none;
+        margin: 0 auto;
+    }
+    .download_passport {
+        float: none;
+    }
+    #content .products_tabs > a,
+    #content .products_tabs > h1 {
+        margin-left: 0;
+    }
     /* documents page styles end */
 
      /* technology page styles start */
@@ -296,6 +317,16 @@
      }
 
      /* contacts page styles end */
+
+     /* other styles start */
+
+     .show_document .body img{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+     }
+
+     /* other styles end */
     
 }
 @media screen and (max-width: 990px) {
@@ -337,6 +368,14 @@
     }
 
     /* products page styles end */
+
+    /* other styles start */
+
+    .show_document .title {
+        font-size: 1.5em;
+    }
+
+    /* other styles end */
 }
 @media screen and (max-width: 576px) {
     #content {
@@ -499,6 +538,14 @@
     } 
 
     /* products page styles end */
+
+    /* other styles start */
+
+    #order .form_background {
+        max-width: 100%;
+    }
+
+    /* other styles end */
 }
 @media screen and (max-width: 479px) {
     .vjs_video_3-dimensions {
@@ -553,4 +600,25 @@
     }
 
     /* need-to-know page styles end */
+
+    /* other styles start */
+
+    .show_news .body img {
+        width: 250px;
+        height: auto;
+    }
+    .fancybox-content {
+        padding: 30px 15px;
+    }
+    .number_label {
+        font-size: 1.6em;
+    }
+    .number_label {
+        font-size: 1.5em;
+    }
+    #order .inputs {
+        max-width: 90%;
+    }
+
+    /* other styles end */
 }
