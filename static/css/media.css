@@ -534,7 +534,7 @@
         padding: 5px 10px;
     }
     .product .thumb img {
-        max-height: 180px;
+        max-width: 130px;
     } 
 
     /* products page styles end */
