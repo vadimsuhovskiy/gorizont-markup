@@ -544,6 +544,9 @@
     #order .form_background {
         max-width: 100%;
     }
+    .related_cartridges .products .thumb {
+        width: auto;
+    }
 
     /* other styles end */
 }
