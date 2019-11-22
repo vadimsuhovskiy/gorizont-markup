@@ -577,6 +577,7 @@
     }
     .last_news .news_info {
         margin-top: 10px;
+        width: auto;
     }
 
      /* documents page styles start */
