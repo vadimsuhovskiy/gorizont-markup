@@ -65,6 +65,7 @@
     margin-bottom: 10px;
     }
 .last_news {
+	padding: 15px 0;
 	float:right;
 	position:relative;
 	z-index:0;
@@ -107,6 +108,12 @@
 	font-weight:bold;
 	color:#024793;
 	}
+.last_news h2 {
+	text-align: center;
+    margin-bottom: 15px;
+    color: #0085b8;
+    font-size: 17px;
+}
 .last_news .news {
 	width:340px;
 	padding:0px 12px;
