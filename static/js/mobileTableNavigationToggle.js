@@ -9,6 +9,15 @@ jQuery(document).ready(function () {
         })
         
     }
+    
+    var imagesArr = $('.video img');
+    if (imagesArr) {
+        imagesArr.each(function(index, value){
+            var imageWidth = value.width
+            value.height = imageWidth / 16 * 9
+        })
+    }
+    
 
     
 });

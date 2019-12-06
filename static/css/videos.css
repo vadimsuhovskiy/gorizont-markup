@@ -12,11 +12,11 @@
 	margin-bottom:17px;
 	}
 .videos .video .thumb {
-	display:block;
-	width:248px;
-	height:186px;
-	border:1px solid #0085BA;
+	display: block;
 	}
+.videos .video .thumb img{
+	max-width: 100%;
+}	
 .videos .video .info {
 	padding-top:7px;
 	font-size:1.6em;
