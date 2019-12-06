@@ -81,8 +81,8 @@
 	behavior:url(../css/pie.htc);
     /*padding-bottom: 15px;*/
 	}
-.last_news:not(.first-new) {
-	max-height: 250px;
+.last_news-content {
+	max-height: 223px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
