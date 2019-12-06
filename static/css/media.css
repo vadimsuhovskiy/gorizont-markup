@@ -114,6 +114,9 @@
     .last_news {
         float: none;
     }
+    .last_news-content {
+        max-height: 336px;
+    }
     #content .last_news.first-new {
         margin-right: auto;
     }
@@ -343,6 +346,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .last_news-content {
+        max-height: 250px;
     }
 }
 @media screen and (max-width: 767px) {
