@@ -87,7 +87,7 @@
 	overflow-x: hidden;
 }
 .last_news.first-new {
-	padding-top: 7px;
+	padding: 7px 0;
 }
 .advertise_block {
     float:right;
