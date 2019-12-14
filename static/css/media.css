@@ -67,7 +67,6 @@
         position: fixed;
         right: -100%;
         top: 0;
-        height: 100vh;
         overflow: auto;
         background: #0177B6;
         transition: 0.3s;
@@ -89,7 +88,12 @@
     }
     #header .navigation li a {
         border-bottom: 1px solid #FFF;
-        margin-left: 0;
+        margin-left: 0px;
+        padding: 5px 0;
+        padding-left: 15px;
+        text-align: left;
+        font-size: 15px;
+        height: auto;
     }
     #header .navigation ul li.current{
         background: none;
