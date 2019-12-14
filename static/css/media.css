@@ -570,6 +570,9 @@
     .vjs_video_3-dimensions {
         margin: 0 auto;
     }
+    .header__title_mobile {
+        font-size: 23px;
+    }
     .last_news {
         width: auto;
         padding-bottom: 15px;
