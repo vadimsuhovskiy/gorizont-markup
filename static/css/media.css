@@ -398,6 +398,9 @@
         z-index: 100;
         top: 0;
     }
+    .last_news:not(.first-new) {
+        display: none;
+    }
     .header__title_mobile {
         display: block;
         padding: 10px 0;
