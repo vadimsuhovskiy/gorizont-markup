@@ -407,9 +407,9 @@
     .header__title_mobile {
         display: block;
         padding: 10px 0;
-        padding-left: 15px;
+        padding-left: 20%;
         font-size: 28px;
-        text-align: center;
+        text-align: left;
         color: #FFF;
     }
     .adv_block {
@@ -572,10 +572,7 @@
 @media screen and (max-width: 479px) {
     .vjs_video_3-dimensions {
         margin: 0 auto;
-    }
-    .header__title_mobile {
-        font-size: 23px;
-    }
+    }    
     .last_news {
         width: auto;
         padding-bottom: 15px;
