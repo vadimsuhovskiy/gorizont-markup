@@ -174,7 +174,17 @@
 .video_list {
 	width:1047px;
 	margin:17px -15px 15px 0px;
+	padding-top: 40px;
+    position: relative;
 	}
+.video_list h3 {
+	position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #024793;
+    font-size: 22px;
+}
 .video_list .video {
 	float:left;
     width:248px;
