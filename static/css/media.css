@@ -407,7 +407,7 @@
     .header__title_mobile {
         display: block;
         padding: 10px 0;
-        padding-left: 30px;
+        padding-left: 60px;
         font-size: 28px;
         text-align: left;
         color: #FFF;
@@ -459,6 +459,7 @@
     .video_list {
         background: #DBECF3 none;
         padding: 10px 0;
+        padding-top: 40px;
         margin: 0;
         margin-bottom: 10px;
     }
@@ -646,7 +647,7 @@
 
     /* other styles end */
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 390px) {
     .header__title_mobile {
         padding-left: 15px;
     }

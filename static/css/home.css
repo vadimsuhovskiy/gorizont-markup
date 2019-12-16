@@ -183,7 +183,8 @@
     left: 50%;
     transform: translateX(-50%);
     color: #024793;
-    font-size: 22px;
+	font-size: 22px;
+	white-space: nowrap;
 }
 .video_list .video {
 	float:left;
