@@ -646,3 +646,8 @@
 
     /* other styles end */
 }
+@media screen and (max-width: 340px) {
+    .header__title_mobile {
+        padding-left: 15px;
+    }
+}
