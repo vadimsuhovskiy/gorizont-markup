@@ -2,9 +2,25 @@
     html,body {
         min-width: auto;
     }
-    #slider,#slideshow,.top_block,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block,.product_block,.product_block .info_block, .related_cartridges .products .info,.show_news {
+    #slider,#slideshow,.top_block,#header .navigation ul,#content,.video_list,#main_block,.centered,#footer .left_side,.home_text,.caption_align,.home_text .separate,.nivo-caption,#header .lang_block,.product_block,.product_block .info_block, .related_cartridges .products .info,.show_news,.certificates {
         width: auto;
         
+    }
+    .certificates {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .certificate {
+        margin: 0 8px;
+        margin-bottom: 15px;
+    }
+    .certificate .info {
+        text-align: center;
+    }
+    .certificates .separate {
+        display: none;
     }
     .alert_class {
         min-width: unset;
