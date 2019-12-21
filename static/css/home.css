@@ -82,7 +82,7 @@
     /*padding-bottom: 15px;*/
 	}
 .last_news-content {
-	max-height: 223px;
+	max-height: 426px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -118,13 +118,10 @@
 .last_news h2 {
 	text-align: center;
     color: #FFF;
-    font-size: 19px;
-    font-weight: 500;
-    background: #01659D;
-    border: 1px solid #053B60;
-    margin: 0 20% 15px;
-    border-radius: 20px;
-    padding: 2px 10px;
+    font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	color: #024793;
 }
 .last_news .news {
 	width:340px;
