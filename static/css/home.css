@@ -2,7 +2,6 @@
 
 /* content styles */
 .home_text {
-	float:left;
 	width:595px;
 	padding:12px 10px 30px 20px;
 	max-height: 680px;
@@ -63,10 +62,13 @@
     padding: 8px 15px 0 15px;
 	margin-left:4px;
     margin-bottom: 10px;
-    }
+	}
+.content-main-top {
+	display: flex;
+	justify-content: space-between;
+}
 .last_news {
 	padding: 15px 0;
-	float: right;
 	position: relative;
 	z-index: 0;
 	width: 364px;	
@@ -81,10 +83,19 @@
 	behavior:url(../css/pie.htc);
     /*padding-bottom: 15px;*/
 	}
+.last_news:not(.first-new) {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex-grow: 1;
+}
 .last_news-content {
-	max-height: 426px;
 	overflow-y: auto;
 	overflow-x: hidden;
+}
+.content-main-top-news {
+	display: flex;
+	flex-direction: column
 }
 .last_news.first-new {
 	padding: 7px 0;
