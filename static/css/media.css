@@ -203,6 +203,9 @@
         box-sizing: border-box;
         max-width: 100%;
     }
+    .wide_column .default_page_block img {
+        height: auto;
+    }
     .documents_list .documents {
         display: flex;
     }
