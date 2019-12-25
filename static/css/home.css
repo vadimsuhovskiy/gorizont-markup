@@ -82,9 +82,6 @@
 	behavior:url(../css/pie.htc);
     /*padding-bottom: 15px;*/
 	}
-.last_news {
-	margin-bottom: 15px;
-}	
 .last_news:not(.first-new) {
 	display: flex;
 	flex-direction: column;
@@ -101,6 +98,7 @@
 }
 .last_news.first-new {
 	padding: 7px 0;
+	margin-bottom: 15px;
 }
 .advertise_block {
     float:right;
