@@ -199,6 +199,10 @@
     .wide_column,.documents_list .info,.documents_list .separate {
         width: auto;
     }
+    .wide_column {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
     .documents_list .documents {
         display: flex;
     }
