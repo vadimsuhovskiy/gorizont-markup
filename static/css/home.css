@@ -128,11 +128,16 @@
 	}
 .last_news h2 {
 	text-align: center;
-    color: #FFF;
     font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 15px;
-	color: #024793;
+	align-self: center;
+    background: #024793;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.last_news h2 a {
+	color: #FFF;
 }
 .last_news .news {
 	width:340px;
@@ -182,7 +187,7 @@
 .video_list {
 	width:1047px;
 	margin:17px -15px 15px 0px;
-	padding-top: 40px;
+	padding-top: 65px;
     position: relative;
 	}
 .video_list h3 {
@@ -190,9 +195,12 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: #024793;
 	font-size: 22px;
 	white-space: nowrap;
+	background: #024793;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 20px;
 }
 .video_list .video {
 	float:left;
