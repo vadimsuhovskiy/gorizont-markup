@@ -128,6 +128,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        position: relative;
     }
     .content-main-top {
         flex-direction: column;
@@ -137,6 +138,9 @@
     }
     .last_news:not(.first-new) {
         flex-grow: 0;
+    }
+    .last_news-content {
+        max-height: 160px;
     }
     .home_text {
      margin-bottom: 20px; 
@@ -366,8 +370,18 @@
 }
 @media screen and (max-width: 990px) {
     .last_news.first-new {
-        order: -1;   
+        position: absolute;
+        top: 0;
+        width: 100%;  
     }
+    .last_news:not(.first-new) {
+        width: 100%;
+        max-height: 320px;
+    }
+    .home_text {
+        margin-top: 230px;
+    }
+
     .last_news {
         flex: 0 0 100%;
         display: flex;

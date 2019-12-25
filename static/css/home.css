@@ -86,7 +86,7 @@
 .last_news:not(.first-new) {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 320px;
 	flex-grow: 1;
 }
 .last_news-content {
