@@ -4,7 +4,6 @@
 .home_text {
 	width:595px;
 	padding:12px 10px 30px 20px;
-	max-height: 680px;
     line-height:18px;
     border:none;
    	background:#DBECF3 none;
@@ -83,6 +82,9 @@
 	behavior:url(../css/pie.htc);
     /*padding-bottom: 15px;*/
 	}
+.last_news {
+	margin-bottom: 15px;
+}	
 .last_news:not(.first-new) {
 	display: flex;
 	flex-direction: column;
