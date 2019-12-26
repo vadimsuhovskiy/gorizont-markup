@@ -126,6 +126,9 @@
 	font-weight:bold;
 	color:#024793;
 	}
+.last_news:hover h2 {
+	color: #ebc54c;
+}
 .last_news h2 {
 	text-align: center;
     font-size: 18px;
