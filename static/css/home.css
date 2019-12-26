@@ -132,7 +132,8 @@
 	font-weight: 700;
 	margin-bottom: 15px;
 	align-self: center;
-    background: #024793;
+    border:1px solid #053B60;
+	background:#007FB5 url(../images/buttons_bg.png) top left repeat-x;
     padding: 5px 15px;
     border-radius: 20px;
 }
@@ -197,7 +198,8 @@
     transform: translateX(-50%);
 	font-size: 22px;
 	white-space: nowrap;
-	background: #024793;
+	border:1px solid #053B60;
+	background:#007FB5 url(../images/buttons_bg.png) top left repeat-x;
     padding: 10px 20px;
     color: #FFFFFF;
     border-radius: 20px;
