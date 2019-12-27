@@ -126,12 +126,12 @@
 	font-weight:bold;
 	color:#024793;
 	}
-.last_news:hover h2 {
+.last_news h2 a:hover {
 	color: #ebc54c;
 }
 .last_news h2 {
 	text-align: center;
-    font-size: 18px;
+    font-size: 19px;
 	font-weight: 700;
 	margin-bottom: 15px;
 	align-self: center;
@@ -199,7 +199,7 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-	font-size: 22px;
+	font-size: 19px;
 	white-space: nowrap;
 	border:1px solid #053B60;
 	background:#007FB5 url(../images/buttons_bg.png) top left repeat-x;

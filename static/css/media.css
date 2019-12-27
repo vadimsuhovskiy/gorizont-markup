@@ -491,6 +491,12 @@
         font-size: 14px;
         margin-left: 0;
     }  
+    .last_news h2 {
+        font-size: 14px;
+    }
+    .video_list h3 {
+        font-size: 14px;
+    }
     .last_news.first-new {
         position: fixed;
         top: 50px;
