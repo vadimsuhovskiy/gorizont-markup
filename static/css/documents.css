@@ -34,7 +34,9 @@
 .documents_list .title  {
     color: #024793;
 }
-
+.documents_list .body_mobile {
+    display: none;
+}
 .documents_list .title:hover {
     color:#000000;
 }

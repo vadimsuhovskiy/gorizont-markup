@@ -531,6 +531,18 @@
 
     .documents_list .title {
         font-size: 1em;
+    }    
+    .documents_list .body_mobile {
+        display: block;
+        font-size: 1.5em;
+        line-height: 1em;
+        order: 3;
+    }
+    .documents_list .info {
+        order: 1;
+    }
+    .documents_list .info .body {
+        display: none;
     }
     /* documents page styles end */
     /* research page styles start */
@@ -542,10 +554,13 @@
         width: 100%;
         margin: 15px 0;
         height: 130px;
+        overflow: hidden;
+        order: 2;
     }
     .documents_list .thumb img {
         object-fit: cover;
         object-position: top;
+        transform: scale(1.1);
     }
 
     /* research page styles end */
