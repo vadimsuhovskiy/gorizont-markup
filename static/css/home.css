@@ -23,7 +23,9 @@
     width: 556px;
 }
 .home_text .buttons-holder {
-    text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
     }
 .home_text .buttons-holder a {
     text-align: center;
