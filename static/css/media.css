@@ -390,7 +390,7 @@
         width: 100%;
         max-height: 320px;
     }
-    .home_text {
+    .main_block_news {
         margin-top: 230px;
     }
 
@@ -473,6 +473,8 @@
     }
     .home_text {
         border-radius: 0;
+    }
+    .main_block_news {
         margin-top: 245px;
     }
     .last_news {
