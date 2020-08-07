@@ -196,6 +196,9 @@
 	padding-top: 65px;
     position: relative;
 	}
+.video_list.videos {
+	padding-top: 0;
+}
 .video_list h3 {
 	position: absolute;
     top: 10px;
