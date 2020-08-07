@@ -1,5 +1,12 @@
 /* Home page styles */
-
+.main_block_news {
+	display: flex;
+	flex-direction: column;
+}
+.main_block_news .player_block {
+	width: 850px;
+	margin-bottom: 25px;
+}
 /* content styles */
 .home_text {
 	width:820px;
