@@ -2,7 +2,7 @@
 
 /* content styles */
 .home_text {
-	width:595px;
+	width:820px;
 	padding:12px 10px 30px 20px;
     line-height:18px;
     border:none;
@@ -189,7 +189,7 @@
 	padding:7px 14px 7px 0;
 	}
 .video_list {
-	width:1047px;
+	width:1240px;
 	margin:17px -15px 15px 0px;
 	padding-top: 65px;
     position: relative;
@@ -210,7 +210,7 @@
 }
 .video_list .video {
 	float:left;
-    width:248px;
+    width:299px;
 	margin: 0 11px 11px 0;
 	}
 .video_list .video a img{

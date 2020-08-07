@@ -9,7 +9,7 @@
 /*=== Custom Slider Styles ===*/
 /*============================*/
 #slideshow {
-    width:1122px;
+    width:1240px;
     height:329px;
     margin:0px auto 0px auto;
 	padding:0px 0px 0px 0px;
@@ -18,9 +18,9 @@
 
 #slider {
 	position:relative;
-    width:1030px;
+    width:calc(1240px - 2 * 45px);
     height:329px;
-	margin:0px 46px;
+	margin:0px 45px;
 	background-position:100% 0px !important;
 }
 #slider img {

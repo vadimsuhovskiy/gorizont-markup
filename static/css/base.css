@@ -174,7 +174,7 @@ html, body {
     color: #FFFFFF;
 }
 #header .navigation {
-	width:1032px;
+	width:1240px;
 	height:47px;
 	margin:-24px auto 0px auto;
 	}
@@ -182,7 +182,7 @@ html, body {
 	display:table;
 	position:absolute;
 	z-index:10;
-	width:1030px;
+	width:1240px;
 	height:45px;
 	margin:0px;
 	padding:0px;
@@ -263,12 +263,12 @@ html, body {
 /* content styles */
 #main_block {
     position:relative;
-	width:1032px;
+	width:1240px;
 	margin:0px auto;
 	padding-bottom:137px;
 	}
 #content {
-	width:1032px;
+	width:1240px;
 	margin:18px 0px 45px 0px;
 	}
 .wide_column {
