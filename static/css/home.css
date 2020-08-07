@@ -9,6 +9,7 @@
 }
 .main_block_news .player_block .my_video_1-dimensions {
 	width: 850px;
+	height: auto;
 }
 /* content styles */
 .home_text {
