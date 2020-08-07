@@ -190,7 +190,7 @@
 /* show product styles */
 /* content styles */
 .product_block {
-	width:972px;
+	width:1176px;
 	margin:0px 32px;
 	padding:30px 0px 20px 0px;
 	}
@@ -207,7 +207,7 @@
 	}
 .product_block .info_block{
 	float:left;
-	width:715px;
+	width:922px;
 	}
 .product_block .product_name {
 	padding-bottom:20px;
