@@ -274,7 +274,8 @@ html, body {
 .wide_column {
 	position:relative;
 	z-index:0;
-	width:976px;
+	width:1240px;
+	box-sizing: border-box;
 	min-height:320px;
 	padding:45px 28px 30px 28px;
 	border:none;
