@@ -8,8 +8,7 @@
 	border:1px solid #7EBFDB;
 	}
 .dealers {
-	width:1064px;
-	margin-right:-32px;
+	width:1240px;
 	padding-top:22px;
 	}
 .dealers .region_name {
@@ -23,7 +22,7 @@
 	position:relative;
 	z-index:0;
 	float:left;
-	width:465px;
+	width:570px;
 	min-height:185px;
 	margin-right:32px;
 	margin-top:25px;
