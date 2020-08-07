@@ -3,10 +3,10 @@
 /* content styles */
 .articles {
 	float:left;
-	width:781px;
+	width:1000px;
 	}
 .article {
-	width:781px;
+	width:1000px;
 	}
 .article .thumb {
 	display:block;
@@ -17,7 +17,7 @@
 	}
 .article .info {
 	float:left;
-	width:574px;
+	width:796px;
 	padding-right:11px;
 	font-size:1.5em;
 	line-height:1.2em;
