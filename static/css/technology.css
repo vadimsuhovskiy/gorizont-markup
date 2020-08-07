@@ -1,0 +1,7 @@
+.technology {
+    display: flex;
+    flex-direction: column;
+}
+.technology img {
+    margin: 0 auto;
+}
