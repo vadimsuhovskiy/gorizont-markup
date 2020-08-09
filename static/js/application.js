@@ -20,35 +20,33 @@ jQuery(document).ready(function() {
   const backButton = document.getElementsByClassName("back-js")[0];
   const nextButton = document.getElementsByClassName("next-js")[0];
   
-
-  
-  if (homeNewsList){
-    const homeNewsItems = homeNewsList.getElementsByTagName("li");
-    
-    function renderHomeNews() {
-      for (var i = 1; i < homeNewsItems.length + 1; i++) {
-        homeNewsItems[i - 1].style.display = "none";
-        if (i <= homePageNews * 3 && i > homePageNews * 3 - 3) {
-          homeNewsItems[i - 1].style.display = "list-item";
-        }
+  function renderHomeNews(items) {
+    for (var i = 1; i < items.length + 1; i++) {
+      items[i - 1].style.display = "none";
+      if (i <= homePageNews * 3 && i > homePageNews * 3 - 3) {
+        items[i - 1].style.display = "list-item";
+      }
     }
+    backButton.style.visibility = homePageNews == 1 ? 'hidden' : 'visible';
+    nextButton.style.visibility = items.length <= homePageNews * 3 ? 'hidden' : 'visible';
+  }
+  if (homeNewsList){
+    
+    const homeNewsItems = homeNewsList.getElementsByTagName("li");
 
-    backButton.style.visibility = homePageNews == 1 ? 'hidden' : 'visible'
-    nextButton.style.visibility = homeNewsItems.length <= homePageNews * 3 ? 'hidden' : 'visible'
-
-    renderHomeNews()
+    renderHomeNews(homeNewsItems);
 
     nextButton.onclick = function(e){
     e.preventDefault()
     homePageNews++;
-    renderHomeNews()
+    renderHomeNews(homeNewsItems)
     };
+
     backButton.onclick = function(e){
     e.preventDefault()
     homePageNews--;
-    renderHomeNews()
+    renderHomeNews(homeNewsItems)
   };
-  }
 
   }
   
