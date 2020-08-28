@@ -667,6 +667,7 @@
     .last_news .thumb {
         height: auto;
         width: 100%;
+        max-width: 30%;
     }
     .last_news .news_info {
         margin-top: 10px;
