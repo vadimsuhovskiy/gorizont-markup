@@ -42,7 +42,10 @@
     text-align: center;
     font-size: 19px;
     font-family: Tahoma,Geneva,Arial,sans-serif;
-    }
+	}
+.back-js, .next-js {
+	color: #024793;
+}
 .home_title {
 	padding-bottom:5px;
 	font-size:2.2em;
