@@ -16,6 +16,7 @@ jQuery(document).ready(function() {
   });
 
   var homePageNews = 1;
+  const certificatesBtn = document.getElementsByClassName("certificates-js")[0];
   const homeNewsList = document.getElementsByClassName("home_text_news")[0];
   const backButton = document.getElementsByClassName("back-js")[0];
   const nextButton = document.getElementsByClassName("next-js")[0];
@@ -29,6 +30,7 @@ jQuery(document).ready(function() {
     }
     backButton.style.visibility = homePageNews == 1 ? 'hidden' : 'visible';
     nextButton.style.visibility = items.length <= homePageNews * 3 ? 'hidden' : 'visible';
+    certificatesBtn.style.visibility = homePageNews == 1 ? 'hidden' : 'visible';
   }
   if (homeNewsList){
     
